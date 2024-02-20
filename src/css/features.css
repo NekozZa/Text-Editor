@@ -1,0 +1,48 @@
+.features {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.active {
+    background-color: rgb(128, 128, 128, 0.5);
+    border-radius: 5px;
+    /* padding: 2px; */
+}
+
+li, select, input, label {
+    cursor: pointer;
+}
+
+
+.sel {
+    display: block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+
+.font-type {
+    padding-right: 40px;
+}
+
+.color-input {
+    width: 40px;
+    border-radius: 15px;
+    background-color: none;
+    
+}
+
+.color-input::-webkit-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px black;
+}
+
+.color-input::-moz-color-swatch {
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px black;
+}

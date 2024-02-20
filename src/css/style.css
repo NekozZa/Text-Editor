@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(125deg, #e66465, #9198e5);
+    height: 1000px;
+}
+
+.text-edit-app {
+    background-color: white;
+    width: 500px;
+    height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    top: 200px
+}
+
+
+

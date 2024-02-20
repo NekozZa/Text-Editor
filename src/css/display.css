@@ -1,0 +1,11 @@
+.display {
+    width: 400px;
+    height: 300px;
+    resize: none;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
